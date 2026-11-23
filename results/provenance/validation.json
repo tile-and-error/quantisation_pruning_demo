@@ -1,0 +1,28 @@
+{
+  "configurations": 31,
+  "evaluation_images_each": 1000,
+  "all_reload_checks_passed": true,
+  "latency_repeats_each": 50,
+  "quantized_graph_operators": {
+    "resnet18_int8": [
+      "quantized::add_relu",
+      "quantized::conv2d",
+      "quantized::conv2d_relu",
+      "quantized::linear"
+    ],
+    "deit_tiny_int8": [
+      "quantized::linear_dynamic"
+    ]
+  },
+  "file_sha256": {
+    "run_experiments.py": "416a14152189a288c8a052252ff4ce9d2bedeb6c1c51843a19f4c8a89ca2ed85",
+    "demo.py": "745fd4340a116fb34a12847b062547e0a181913ae149b360f4b70da8d000be4a",
+    "verify_transforms.py": "2dcedb16d51791d9895f9bb3c69ac9902cc2d559222ebb45589a26e42c483b94",
+    "methods.py": "fc12c9d5f2eec58fd278b1f868e6a7fb3a26eefc4d6aec1c070997b84634aa5d",
+    "make_report.py": "45fe21af280aa55baf2416b4957115fe80614de0ec2beb97c951141f423d1ee8",
+    "quantisation_plot.py": "d9c40fc735f09414cdff21a0ba9d8a7a1951b9fd0e250f9da7d8bea3e77421ec",
+    "requirements-lock.txt": "42193c0576869a33a0d248e6b70772190fa7d4e85302a1411c550578bc443c34",
+    "references/quantisation_from_fundamentals_to_computational_pathology.md": "2408f7a29d8b07197e80de817d17bdf60ff6daf789b7afb4f9a76981e54091db",
+    "references/pruning_guide_cs407.md": "6cfbf8b78a53684695a578f8b7214de4a3c5bf2807ad356511d1cbd9c4365807"
+  }
+}

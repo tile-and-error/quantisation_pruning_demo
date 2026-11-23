@@ -1,0 +1,30 @@
+{
+  "attention probabilities": {
+    "Uniform A4": {
+      "mse": 3.9511385693913326e-05,
+      "maximum": 0.9516789317131042,
+      "inner_boundary": 0.11895986646413803,
+      "number_of_observed_codes": 16
+    },
+    "Twin A4": {
+      "mse": 1.4755918527953327e-05,
+      "maximum": 0.9516789317131042,
+      "inner_boundary": 0.11895986646413803,
+      "number_of_observed_codes": 16
+    }
+  },
+  "GELU activations": {
+    "Uniform A4": {
+      "mse": 0.02794237621128559,
+      "maximum": 8.643098831176758,
+      "inner_boundary": 1.0803873538970947,
+      "number_of_observed_codes": 8
+    },
+    "Twin A4": {
+      "mse": 0.016225170344114304,
+      "maximum": 8.643098831176758,
+      "inner_boundary": 1.0803873538970947,
+      "number_of_observed_codes": 9
+    }
+  }
+}

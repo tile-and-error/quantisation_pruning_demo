@@ -1,0 +1,45 @@
+{
+  "data": "/dcs/23/u5534387/git/diss/datasets/tiny-imagenet",
+  "output": "results",
+  "seed": 407,
+  "samples_per_class": 5,
+  "train_per_class": 10,
+  "calibration_per_class": 1,
+  "head_steps": 200,
+  "steps": 20,
+  "threads": 1,
+  "batch_size": 16,
+  "repeats": 50,
+  "only": "resnet18/baseline,resnet18/random30,resnet18/random50,resnet18/magnitude30,resnet18/magnitude50,resnet18/structural25,resnet18/structural50,resnet18/slim_dense,resnet18/slimming25,resnet18/slimming50,resnet18/int8,resnet18/random30_int8,resnet18/magnitude30_int8,resnet18/structural25_int8,resnet18/slimming25_int8",
+  "bench_worker": false,
+  "artifact": null,
+  "bench_input": null,
+  "bench_result": null,
+  "torch": "2.5.1+cpu",
+  "torchvision": "0.20.1+cpu",
+  "timm": "1.0.12",
+  "python": "3.11.13 (main, Jun  1 2026, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+  "platform": "Linux-5.14.0-687.66.1.el9_8.x86_64-x86_64-with-glibc2.34",
+  "cpu": "x86_64",
+  "input_shape": [
+    3,
+    224,
+    224
+  ],
+  "dataset": "Tiny ImageNet / zh-plus/tiny-imagenet",
+  "normalisation_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalisation_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "quantized_backend": "fbgemm",
+  "source_sha256": {
+    "methods.py": "fc12c9d5f2eec58fd278b1f868e6a7fb3a26eefc4d6aec1c070997b84634aa5d",
+    "run_experiments.py": "416a14152189a288c8a052252ff4ce9d2bedeb6c1c51843a19f4c8a89ca2ed85"
+  }
+}
